@@ -16,7 +16,6 @@ const collectEmployees = function() {
       employee.salary = 0
     }
     employeesArray.push(employee)
-    console.log(employee)
     runLoop = confirm('Do you want to add another employee');
   }
   return employeesArray
